@@ -14,12 +14,12 @@ class Geek:
 	def set_age(self, x): 
 		self._age = x 
 
-anchal = Geek() 
+dhruvi = Geek() 
 
 # setting the age using setter 
-anchal.set_age(21) 
+dhruvi.set_age(21) 
 
 # retrieving age using getter 
-print(anchal.get_age()) 
+print(dhruvi.get_age()) 
 
-print(anchal._age)
+print(dhruvi._age)
